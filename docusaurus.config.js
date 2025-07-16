@@ -16,6 +16,8 @@ const config = {
   organizationName: 'emrukavina',
   projectName: 'emrukavina.com',
 
+  trailingSlash: false,
+  
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
