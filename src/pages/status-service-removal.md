@@ -11,13 +11,13 @@ After much consideration, I have made the difficult decision to shut down my sta
 
 ## Background of the Status Server
 
-For the past five years, my status server has served as a centralized platform for users to check real-time updates about the operational status of my applications. Whether it was to report ongoing incidents, scheduled maintenance, or general updates, the server was designed to keep users informed and ensure transparency. The service was built using **Uptime**, an open-source tool available on GitHub, and was hosted on **GitHub Pages**, a platform that allows static websites to be served directly from a GitHub repository.
+For the past five years, my status server has served as a centralized platform for users & clients to check real-time updates about the operational status of my applications. Whether it was to report ongoing incidents, scheduled maintenance, or general updates, the server was designed to keep users informed and ensure transparency. The service was built using **Uptime**, an open-source tool available on GitHub, and was hosted on **GitHub Pages**, a platform that allows static websites to be served directly from a GitHub repository.
 
 The choice to use Uptime and GitHub Pages was initially driven by their accessibility, ease of setup, and cost-effectiveness. For a small-scale operation, this combination seemed ideal, as it allowed me to provide a functional status page without the overhead of managing complex infrastructure. Over the years, thousands of users relied on this service to stay informed about the health of my applications, and I took pride in offering this level of transparency.
 
 ## Challenges with the Status Server
 
-Despite its initial success, the status server has faced significant challenges in recent years, primarily due to the limitations of the underlying tools and platform. While Uptime and GitHub Pages served their purpose in the early days, they have increasingly proven to be slow, unreliable, and prone to crashing. These issues have caused frustration for both myself and the users who depend on the service for timely updates.
+Despite its initial success, the status server has faced significant challenges in recent years, primarily due to the limitations of the underlying tools and platform. While Uptime and GitHub Pages served their purpose in the early days, they have increasingly proven to be slow, unreliable, and prone to crashing. These issues have caused frustration for both myself and the users / clients who depend on the service for timely updates.
 
 ## Technical Limitations of Uptime and GitHub Pages
 
