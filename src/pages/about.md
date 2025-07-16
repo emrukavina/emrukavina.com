@@ -1,5 +1,6 @@
 ---
 title: About me
+description: Hi, I'm a software dev with a roadmap that started in PHP and has evolved into Rust and high-performance server backends.
 hide_table_of_contents: true
 ---
 

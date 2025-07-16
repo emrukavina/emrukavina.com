@@ -1,5 +1,6 @@
 ---
 title: Notification of Removal of Status Services
+description: After much consideration, I have made the difficult decision to shut down my status server, which has been operational for five years as of July 16, 2025.
 hide_table_of_contents: true
 ---
 

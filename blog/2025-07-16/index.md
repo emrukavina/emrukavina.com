@@ -1,6 +1,7 @@
 ---
 slug: 2025-07-16-hi
 title: Welcome to my new blog!
+description: I have deleted my old blog (emanuel-rukavina.com) and will be uplodading new and old articles here.
 ---
 
 Welcome to my new blog!
