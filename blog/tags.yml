@@ -1,0 +1,14 @@
+rust:
+  label: Rust
+  permalink: /rust
+  description: Not the game :)
+
+php:
+  label: PHP
+  permalink: /php
+  description: PHP, a versatile and widely-used server-side scripting language, and my first language.
+
+linux:
+  label: Linux
+  permalink: /linux
+  description: Linux, the open-source operating system.
