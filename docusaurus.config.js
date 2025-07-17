@@ -1,4 +1,4 @@
-import {themes as prismThemes} from 'prism-react-renderer';
+import { themes as prismThemes } from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -17,7 +17,7 @@ const config = {
   projectName: 'emrukavina.com',
 
   trailingSlash: false,
-  
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -46,6 +46,7 @@ const config = {
         theme: {
           customCss: './src/css/custom.css',
         },
+
       }),
     ],
   ],
@@ -61,7 +62,7 @@ const config = {
           src: 'https://avatars.githubusercontent.com/u/220944585?v=4',
         },
         items: [
-          {to: '/about', label: 'About me', position: 'left'},
+          { to: '/about', label: 'About me', position: 'left' },
           {
             href: '/verification',
             label: '@emrukavina',
@@ -70,12 +71,14 @@ const config = {
         ],
       },
       announcementBar: {
-      id: 'announcement_16_07_2025',
-      content: 'Some of my clients have reported receiving messages requesting payments or asking for their hosting passwords. <a href="/verification">Read this!</a>',
-      backgroundColor: '#cc0000ff',
-      textColor: '#ffffffff',
-      isCloseable: false,
-    },
+        id: 'announcement_16_07_2025',
+        content: 'Some of my clients have reported receiving messages requesting payments or asking for their hosting passwords. <a href="/verification">Read this!</a>',
+        backgroundColor: '#cc0000ff',
+        textColor: '#ffffffff',
+        isCloseable: false,
+
+      },
+
       footer: {
         style: 'dark',
         copyright: `Copyright © ${new Date().getFullYear()} Em Rukavina.`,
@@ -85,6 +88,15 @@ const config = {
         darkTheme: prismThemes.dracula,
       },
     }),
+  plugins: [
+    [
+      '@docusaurus/plugin-google-gtag',
+      {
+        trackingID: 'G-NZQ9YQ9P94',
+        anonymizeIP: true,
+      },
+    ],
+  ],
 };
 
 export default config;
